@@ -2,59 +2,45 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>سجلي الأكاديمي - جامعة الإمام</title>
+    <title>السجل الأكاديمي</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-        header, footer {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin: 20px 0;
-            color: #000;
-        }
-        .grades-container {
-            margin: 40px auto;
-            max-width: 400px;
-        }
-        .course-card {
-            border-bottom: 1px solid #ccc;
-            padding: 10px 0;
-            text-align: right;
-        }
-        .course-name { font-weight: bold; }
-        .course-grade { color: #555; margin-right: 10px; }
-        .gpa-section {
-            margin-top: 50px;
-            font-size: 2em;
-            font-weight: bold;
-            color: #000;
-        }
+        body { font-family: 'Arial', sans-serif; background-color: #ffffff; padding: 20px; text-align: center; }
+        .logo { width: 120px; margin-bottom: 10px; }
+        table { width: 100%; max-width: 1000px; margin: 20px auto; border-collapse: collapse; border: 2px solid #333; }
+        th { background-color: #f2f2f2; color: #000; padding: 10px; border: 1px solid #333; font-size: 0.85em; }
+        td { padding: 10px; border: 1px solid #333; text-align: center; font-size: 0.85em; }
+        .gpa-row { font-weight: bold; background-color: #f9f9f9; }
     </style>
 </head>
 <body>
 
-    <header>جامعة الإمام محمد بن سعود الإسلامية</header>
+    <img src="https://upload.wikimedia.org/wikipedia/ar/b/b3/Imam_Muhammad_bin_Saud_Islamic_University_logo.png" class="logo">
+    <h3>جامعة الإمام محمد بن سعود الإسلامية</h3>
 
-    <div class="grades-container">
-        <div class="course-card"><span class="course-name">تعلم جامعي:</span> <span class="course-grade">أ+</span></div>
-        <div class="course-card"><span class="course-name">مهارات الذكاء الاصطناعي:</span> <span class="course-grade">أ+</span></div>
-        <div class="course-card"><span class="course-name">اللغة الإنجليزية:</span> <span class="course-grade">ب+</span></div>
-        <div class="course-card"><span class="course-name">المهارات اللغوية:</span> <span class="course-grade">ب+</span></div>
-        <div class="course-card"><span class="course-name">مبادئ الإحصاء:</span> <span class="course-grade">أ+</span></div>
-        <div class="course-card"><span class="course-name">القرآن الكريم:</span> <span class="course-grade">ب</span></div>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>الرقم المرجعي</th>
+                <th>رمز المقرر</th>
+                <th>الشعبة</th>
+                <th>المقرر</th>
+                <th>انتظام - طالبات</th>
+                <th>التقدير</th>
+                <th>الساعات</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>27289</td><td>نحو</td><td>416</td><td>المهارات اللغوية</td><td>مدينة الملك عبدالله - انتظام - طالبات</td><td>ب+</td><td>2.000</td></tr>
+            <tr><td>12787</td><td>نهج</td><td>416</td><td>مهارات التعلم الجامعي</td><td>مدينة الملك عبدالله - انتظام - طالبات</td><td>أ+</td><td>2.000</td></tr>
+            <tr><td>12435</td><td>احص</td><td>416</td><td>مبادئ احصاء</td><td>مدينة الملك عبدالله - انتظام - طالبات</td><td>ب+</td><td>3.000</td></tr>
+            <tr><td>23432</td><td>قرا</td><td>416</td><td>القرآن الكريم</td><td>مدينة الملك عبدالله - انتظام - طالبات</td><td>أ+</td><td>2.000</td></tr>
+            <tr><td>15245</td><td>نجل</td><td>416</td><td>اللغة الانجليزية</td><td>مدينة الملك عبدالله - انتظام - طالبات</td><td>أ</td><td>2.000</td></tr>
+            <tr><td>27453</td><td>عال</td><td>56</td><td>أساسيات الذكاء الاصطناعي</td><td>مدينة الملك عبدالله - انتظام - طالبات</td><td>ب+</td><td>2.000</td></tr>
+            <tr class="gpa-row"><td colspan="6" style="text-align: left; padding-left: 20px;">المعدل الفصلي</td><td>4.69</td></tr>
+        </tbody>
+    </table>
 
-    <div class="gpa-section">
-        المعدل: 4.69
-    </div>
-
-    <footer>جامعة الإمام محمد بن سعود الإسلامية</footer>
+    <p style="margin-top: 50px; font-weight: bold;">جامعة الإمام محمد بن سعود الإسلامية</p>
 
 </body>
 </html>
